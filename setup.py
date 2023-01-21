@@ -6,8 +6,8 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-  name = 'Topsis_102017182_sandhya_goyal.',         # How you named your package folder (MyLib)
-  packages = ['Topsis_102017182_sandhya_goyal.'],   # Chose the same as "name"
+  name = 'topsis_102017182_sandhya_goyal.',         # How you named your package folder (MyLib)
+  packages = ['topsis_102017182_sandhya_goyal.'],   # Chose the same as "name"
   version = '1.0.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'This package performs the topsis(multiple criterion decision making) on a pandas dataframe and return the rank and topsis score.',   # Give a short description about your library
